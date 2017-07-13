@@ -5,8 +5,8 @@ public class reverse {
 	{
 	String n;
 	System.out.println("enter the sentence");
-	Scanner s=new Scanner(System.in);
-	n=s.nextLine();
+	Scanner in=new Scanner(System.in);
+	n=in.nextLine();
 	String str[]=n.split(" ");
 	String f="";
 	for(int i=str.length-1;i>=0;i--)
